@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Paralax-Scroller</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Abel"
+        rel="stylesheet"/>
+    <script
+        src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+        crossorigin="anonymous">
+    </script>
+    <script>
+      if (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > -1) {
+        console.log("IE11 Detected");
+        document.write('<link rel="stylesheet" type="text/css" href="src/css/IE11.css" />');
+      } else {
+        document.write('<link rel="stylesheet" type="text/css" href="src/css/nonIE11.css" />');
+      }
+    </script>
+</head>
+<body>
+<!--<nav class="navigation">-->
+<!--<a class="nav-anchor" href="#container1">Section #1</a>-->
+<!--<a class="nav-anchor" href="#container2">Section #2</a>-->
+<!--<a class="nav-anchor" href="#container3">Section #3</a>-->
+<!--<a class="nav-anchor" href="#container4">Section #4</a>-->
+<!--</nav>-->
+<section class="buffer-content">
+    <p>Section #1<br/>Parallax Effect<br/>Fade-in Text</p>
+</section>
+<section class="container v3" id="container1">
+    <div class="background">
+        <div
+            class="lax background--image one v4"
+            data-lax-blur="(vh/1.8) 0, (vh/1.6) 5px"
+            data-lax-anchor="#spec-1">
+        </div>
+    </div>
+    <div id="spec-1"
+         class="lax specs"
+         data-lax-opacity="vh -1.9, (vh/2) 1"
+         data-lax-anchor="self">
+        <div class="key-features">
+            <p class="key-features--number">XXX</p>
+            <p class="key-features--distance-unit">mi</p>
+            <div class="key-features-distance-wrapper">
+                <p>Reichweite</p>
+                <p>(WLTP)</p>
+            </div>
+        </div>
+        <div class="key-features">
+            <p class="key-features--number">XXX</p>
+            <p class="key-features--distance-unit">min</p>
+            <div class="key-features-distance-wrapper">
+                <p>Ladedauer auf</p>
+                <p>100km</p>
+            </div>
+        </div>
+        <div class="key-features">
+            <p class="key-features--number">5,2</p>
+            <p class="key-features--distance-unit">l/km</p>
+            <div class="key-features-distance-wrapper">
+                <p>Verbrauch</p>
+                <p>im Alltag</p>
+            </div>
+        </div>
+
+        <div class="key-features">
+            <div class="key-features--with-icons">
+                <div class="key-features--icon-wrapper">
+                    <object class="key-features--icon" data="src/pic/icons/plug.svg" type="image/svg+xml"></object>
+                </div>
+                <div class="key-features--text-wrapper">
+                    <p class="key-features--icon-text">XXX - XXX</p>
+                    <p class="key-features--icon-unit">kWh/100km</p>
+                </div>
+            </div>
+
+            <div class="key-features--with-icons">
+                <div class="key-features--icon-wrapper">
+                    <object class="key-features--icon" data="src/pic/icons/co2.svg" type="image/svg+xml"></object>
+                </div>
+                <div class="key-features--text-wrapper">
+                    <p class="key-features--icon-text">XX - XX</p>
+                    <p class="key-features--icon-unit">g/km</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-features--headline">
+            <p class="headline-text">Highlights</p>
+        </div>
+        <div class="key-features--slogan">
+            <p class="slogan-text">So viel mehr als nur eine<br/>Batterie.</p>
+        </div>
+
+        <a class="key-features--show-more-wrapper" href="">
+            <p class="show-more--anchor" >Erfahre mehr über Highlights</p>
+        </a>
+    </div>
+
+</section>
+
+<section class="container v3">
+    <div class="background">
+        <div
+            class="lax background--image two"
+            data-lax-blur="(vh/1.8) 0, (vh/1.6) 5px"
+            data-lax-anchor="#spec-2">
+        </div>
+    </div>
+    <div id="spec-2"
+         class="lax specs"
+         data-lax-opacity="vh -1.9, (vh/2) 1"
+         data-lax-anchor="self">
+        <div class="key-features--headline">
+            <p class="headline-text">Design</p>
+        </div>
+        <div class="key-features--slogan">
+            <p class="slogan-text">Puristisch, expressiv, zeitlos</p>
+        </div>
+
+        <div class="key-features--slogan-text">
+            Die Seele eines Porsche offenbart sich nicht nur bei inneren Werten. Sondern auch von aus&szlig;en:
+            <br/>
+            Wie jeder Porsche trägt auch der Taycan Eigenschaften wie die ausgestellten Kotflügel
+            <br/>
+            oder die Porsche typische Flyline - Merkmale, die für Funktionalität, Aerodynamik und
+            <br/>
+            Sportlichkeit stehen.
+        </div>
+
+        <a class="key-features--show-more-wrapper" href="">
+            <p class="show-more--anchor" >Erfahre mehr über Design</p>
+        </a>
+    </div>
+
+</section>
+
+<section class="image-buffer-content">
+    <div class="tile"><img src="src/pic/3.jpg" alt=""></div>
+    <div class="tile"><img src="src/pic/2.jpg" alt=""></div>
+    <div class="tile"><img src="src/pic/4.jpg" alt=""></div>
+</section>
+
+<section class="container v3">
+    <div class="background">
+        <video
+                class="lax background--video"
+                data-lax-blur="(vh/1.8) 0, (vh/1.6) 5px"
+                data-lax-anchor="#spec-3"
+                src="src/videos/cayennecoupe/13-5_ps5_fullHD.mp4"
+                controls loop>
+        </video>
+    </div>
+    <div id="spec-3"
+         class="lax specs"
+         data-lax-opacity="vh -1.9, (vh/2) 1"
+         data-lax-anchor="self">
+        <!--<p class="specs&#45;&#45;text-header">Spec Heading</p>-->
+        <!--<p class="specs&#45;&#45;text-highlight">Highlight<br/>of a Spec</p>-->
+        <!--<p>Spec 1</p>-->
+        <!--<p>Spec 2</p>-->
+        <!--<p>Spec 3</p>-->
+        <!--<p class="specs&#45;&#45;text-copy">-->
+            <!--Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam-->
+            <!--nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,-->
+            <!--sed diam voluptua. At vero eos et accusam et justo duo dolores et ea-->
+            <!--rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem-->
+            <!--ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur-->
+        <!--</p>-->
+        <!--<a class="specs&#45;&#45;anchor" href="">-->
+            <!--<span class="specs&#45;&#45;anchor-text">Show more</span>-->
+        <!--</a>-->
+    </div>
+</section>
+
+<section class="image-buffer-content">
+    <div class="tile"><img src="src/pic/3.jpg" alt=""></div>
+    <div class="tile"><img src="src/pic/2.jpg" alt=""></div>
+    <div class="tile"><img src="src/pic/4.jpg" alt=""></div>
+</section>
+
+<section class="buffer-content"></section>
+
+<script src="src/js/lax.js" type="text/javascript"></script>
+<script src="src/js/init.js" type="text/javascript"></script>
+
+</body>
+</html>
