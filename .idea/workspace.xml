@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7237c44f-7968-4f0b-b85e-b2cabe4542cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/nonIE11.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/nonIE11.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pic/icons/co2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pic/icons/co2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pic/icons/plug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/pic/icons/plug.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v1-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v3-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v3-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v4-index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7237c44f-7968-4f0b-b85e-b2cabe4542cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +57,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/v4-index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="557">
-                  <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
+                <state relative-caret-position="665">
+                  <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -99,8 +89,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/css/nonIE11.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
+                <state relative-caret-position="495">
+                  <caret line="320" column="4" selection-start-line="320" selection-start-column="4" selection-end-line="320" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -137,6 +127,7 @@
     <option name="width" value="1482" />
     <option name="height" value="1386" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -179,6 +170,26 @@
               <item name="pic" type="462c0819:PsiDirectoryNode" />
               <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="scroller" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scroller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scroller" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scroller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="cayennecoupe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scroller" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scroller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="macan" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,24 +225,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556861011724</updated>
-      <workItem from="1556861013341" duration="4308000" />
+      <workItem from="1556861013341" duration="6519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4308000" />
+    <option name="totallyTimeSpent" value="6519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -292,15 +303,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/v4-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
+        <state relative-caret-position="665">
+          <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/nonIE11.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
+        <state relative-caret-position="495">
+          <caret line="320" column="4" selection-start-line="320" selection-start-column="4" selection-end-line="320" selection-end-column="4" />
         </state>
       </provider>
     </entry>

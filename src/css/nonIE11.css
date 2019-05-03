@@ -318,6 +318,7 @@ section.buffer-content p {
     align-self: center;
     font-size: calc(15px + (25 - 15) * ((100vw - 300px) / (1920 - 300)));
     /*font-size: 1.3rem;*/
+    
     margin-left: 10px;
 }
 
